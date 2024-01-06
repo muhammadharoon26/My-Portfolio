@@ -14,6 +14,5 @@ export default function Home()
         <Encryption />
         <Projects />
       </div>
-    </main>
-  )
+    </main>)
 }
