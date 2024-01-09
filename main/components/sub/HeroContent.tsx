@@ -33,11 +33,11 @@ const HeroContent = () => {
             className='text-lg text-purple-400 my-5 max-w-[600px]'>
                 Cybersecurity Analyst | Pentester
             </motion.p>
-            <motion.a
+            {/* <motion.a
             variants={slideInFromLeft(1)}
             className='py-2 button-primary Mistral text-center text-white cursor-pointer rounded-lg max-w-[200px]'>
                 Learn More!
-            </motion.a>
+            </motion.a> */}
         </div>
         <motion.div
         variants={slideInFromRight(0.8)}
