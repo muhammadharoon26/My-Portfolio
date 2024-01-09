@@ -27,23 +27,21 @@ const Footer = () => {
                         <span className="text-[15px] ml-[6px]">Github</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Discord</span>    
+                        <RxLinkedinLogo />
+                        <span className="text-[15px] ml-[6px]">LinkedIn</span>    
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">Social Media</div>
+                    <div className="font-bold text-[16px]">Contact Me</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <FaYoutube />
-                        <span className="text-[15px] ml-[6px]">Instagram</span>    
+                        <span className="text-[15px] ml-[6px]">+92-3325623738</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Twitter</span>    
+                        <span className="text-[15px] ml-[6px]">mharoon1326@gmail.com</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxDiscordLogo />
-                        <span className="text-[15px] ml-[6px]">Linkedin</span>    
+                        <RxLinkedinLogo />
+                        <span className="text-[15px] ml-[6px]">LinkedIn</span>    
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
@@ -58,13 +56,13 @@ const Footer = () => {
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
-                        <span className="text-[15px] ml-[6px]">mifwebchain@gmail.com</span>    
+                        <span className="text-[15px] ml-[6px]">mharoon1326@gmail.com</span>    
                     </p>
                 </div>
             </div>
 
             <div className="mb-[20px] text-[15px] text-center">
-                &copy; WebChain Dev 2023 Inc. All rights reserved
+                &copy; Muhammad Haroon Inc. All rights reserved
             </div>
         </div>
     </div>
