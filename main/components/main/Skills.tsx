@@ -1,9 +1,9 @@
 import {
-    Backend_skill,
-    Frontend_skill,
+    Tools,
+    Operating_Systems,
     Full_stack,
     Other_skill,
-    Skill_data,
+    Programming_languages,
   } from "@/constants";
   import React from "react";
   import SkillDataProvider from "../sub/SkillDataProvider";
@@ -19,7 +19,7 @@ import {
         <SkillText />
   
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-          {Skill_data.map((image, index) => (
+          {Programming_languages.map((image, index) => (
             <SkillDataProvider
               key={index}
               src={image.Image}
@@ -29,9 +29,9 @@ import {
             />
           ))}
         </div>
-  
+
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-          {Frontend_skill.map((image, index) => (
+          {Tools.map((image, index) => (
             <SkillDataProvider
               key={index}
               src={image.Image}
@@ -41,8 +41,9 @@ import {
             />
           ))}
         </div>
+
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-          {Backend_skill.map((image, index) => (
+          {Operating_Systems.map((image, index) => (
             <SkillDataProvider
               key={index}
               src={image.Image}
@@ -52,7 +53,8 @@ import {
             />
           ))}
         </div>
-        <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+        
+        {/* <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
           {Full_stack.map((image, index) => (
             <SkillDataProvider
               key={index}
@@ -63,6 +65,7 @@ import {
             />
           ))}
         </div>
+        
         <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
           {Other_skill.map((image, index) => (
             <SkillDataProvider
@@ -73,7 +76,7 @@ import {
               index={index}
             />
           ))}
-        </div>
+        </div> */}
   
         <div className="w-full h-full absolute">
           <div className="w-full h-full z-[-10] opacity-30 absolute flex items-center justify-center bg-cover">
