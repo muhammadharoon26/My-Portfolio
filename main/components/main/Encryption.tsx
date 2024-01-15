@@ -27,6 +27,7 @@ const Encryption = () => {
           <Image
             src="/LockTop.png"
             alt="Lock top"
+            // style={{ marginBottom: '-162px' }}
             width={50}
             height={50}
             className="w-[50px] translate-y-5 transition-all duration-200 group-hover:translate-y-11"
@@ -34,6 +35,7 @@ const Encryption = () => {
           <Image
             src="/LockMain.png"
             alt="Lock Main"
+            style={{ marginBottom: '-144px' }}
             width={70}
             height={70}
             className=" z-10"
