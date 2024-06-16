@@ -24,20 +24,15 @@ const HeroContent = () => {
             className='flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto'>
                 <span>
                     <span className='text-transparent bg-clip-text bg-gradient-to-r from-lime-500 to-red-500'>
-                        Providing Pentesting Services
+                        Providing DevOps Consultation
                     </span>
                 </span>
             </motion.div>
             <motion.p
             variants={slideInFromLeft(0.8)}
             className='text-lg text-purple-400 my-5 max-w-[600px]'>
-                Cybersecurity Analyst | Pentester
+                DevOps Practitioner | Cyber Security Enthusiast
             </motion.p>
-            {/* <motion.a
-            variants={slideInFromLeft(1)}
-            className='py-2 button-primary Mistral text-center text-white cursor-pointer rounded-lg max-w-[200px]'>
-                Learn More!
-            </motion.a> */}
         </div>
         <motion.div
         variants={slideInFromRight(0.8)}

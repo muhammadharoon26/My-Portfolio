@@ -31,7 +31,7 @@ export const Programming_languages = [
     },
     {
       language_name: "React Query",
-      Image: "/reactquery.png",
+      Image: "/react (2).png",
       width: 80,
       height: 80,
     },
@@ -48,22 +48,10 @@ export const Programming_languages = [
       height: 80,
     },
     {
-      language_name: "Framer Motion",
-      Image: "/framer.png",
-      width: 80,
-      height: 80,
-    },
-    {
       language_name: "Node js",
       Image: "/node-js.png",
       width: 80,
       height: 80,
-    },
-    {
-      language_name: "Mongo db",
-      Image: "/mongodb.png",
-      width: 40,
-      height: 40,
     },
   ];
   
