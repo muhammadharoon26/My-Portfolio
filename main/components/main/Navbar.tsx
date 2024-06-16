@@ -1,5 +1,4 @@
 'use client'
-import { Socials } from "@/constants";
 import Image from "next/image";
 import React, { useState } from "react";
 // import Chatbot from "../sub/Chatbot";

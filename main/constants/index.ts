@@ -55,21 +55,6 @@ export const Programming_languages = [
     },
   ];
   
-  export const Socials = [
-    {
-      name: "Discord",
-      src: "/instagram.svg",
-    },
-    {
-      name: "Facebook",
-      src: "/facebook.svg",
-    },
-    {
-      name: "Instagram",
-      src: "/discord.svg",
-    },
-  ];
-  
   export const Operating_Systems = [
     {
       os_name: "Windows",
@@ -93,6 +78,11 @@ export const Programming_languages = [
   
   export const Tools = [
     {
+      tool_name: "Kubernetes",
+      Image: "/kubernetes.png",
+      width: 80,
+      height: 80,
+    },{
       tool_name: "Burp Suite",
       Image: "/burpsuite.png",
       width: 80,
@@ -103,12 +93,6 @@ export const Programming_languages = [
       Image: "/wireshark.png",
       width: 80,
       height: 80,
-    },
-    {
-      tool_name: "Shodan",
-      Image: "/shodan.png",
-      width: 200,
-      height: 40,
     },
     {
       tool_name: "NMAP",
