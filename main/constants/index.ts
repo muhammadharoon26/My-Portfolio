@@ -103,7 +103,7 @@ export const Programming_languages = [
     },
     {
       tool_name: "Wazuh",
-      Image: "/wazuh.png",
+      Image: "/wazuh.jpeg",
       width: 80,
       height: 80,
     },
