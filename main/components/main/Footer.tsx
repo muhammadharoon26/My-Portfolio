@@ -17,7 +17,6 @@ const Footer = () => {
                 
 
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">Community</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
                         <span className="text-[15px] ml-[6px]">Github</span>    
@@ -28,7 +27,6 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">Contact Me</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <span className="text-[15px] ml-[6px]">+92-3325623738</span>    
                     </p>
@@ -37,9 +35,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">About</div>
                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                     
                         <span className="text-[15px] ml-[6px]">Become Sponsor</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
