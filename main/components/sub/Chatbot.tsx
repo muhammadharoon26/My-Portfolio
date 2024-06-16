@@ -17,7 +17,7 @@ const Chatbot: React.FC = () => {
         const genModel = genAI.getGenerativeModel({ model: "gemini-pro" });
         setModel(genModel);
 
-        const systemPrompt = "You are a chatbot on Muhammad Haroon's personal portfolio website. Your job is to greet the user and guide them for what they need.";
+        const systemPrompt = "You are a chatbot on Muhammad Haroon's personal portfolio website.Muhammad Haroon has intermediate experience in DevOps and Cyber Security. Muhammad Haroon is pursuing bachelors degree at NUST. Your job is to greet the user and guide them for what they need.";
         const chat = await genModel.startChat({ history: [] });
         const result = await chat.sendMessage(systemPrompt);
         const response = await result.response;
