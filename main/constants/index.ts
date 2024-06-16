@@ -102,8 +102,8 @@ export const Programming_languages = [
       height: 80,
     },
     {
-      tool_name: "Burp Suite",
-      Image: "/burpsuite.png",
+      tool_name: "Wazuh",
+      Image: "/wazuh.png",
       width: 80,
       height: 80,
     },
@@ -112,12 +112,6 @@ export const Programming_languages = [
       Image: "/wireshark.png",
       width: 80,
       height: 80,
-    },
-    {
-      tool_name: "NMAP",
-      Image: "/nmap.png",
-      width: 100,
-      height: 55,
     },
   ];
   
