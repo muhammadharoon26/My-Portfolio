@@ -82,7 +82,26 @@ export const Programming_languages = [
       Image: "/kubernetes.png",
       width: 80,
       height: 80,
-    },{
+    },
+    {
+      tool_name: "Docker",
+      Image: "/docker.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      tool_name: "Ansible",
+      Image: "/ansible.png",
+      width: 80,
+      height: 80,
+    },
+    {
+      tool_name: "Jenkins",
+      Image: "/jenkins.png",
+      width: 80,
+      height: 80,
+    },
+    {
       tool_name: "Burp Suite",
       Image: "/burpsuite.png",
       width: 80,
