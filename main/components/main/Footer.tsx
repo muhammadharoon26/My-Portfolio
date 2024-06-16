@@ -15,13 +15,13 @@ const Footer = () => {
                         <span className="text-[15px] ml-[6px]">Github</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <RxLinkedinLogo />
-                        <span className="text-[15px] ml-[6px]">LinkedIn</span>    
+                        <span className="text-[15px] ml-[6px]">+92-3325623738</span>    
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <span className="text-[15px] ml-[6px]">+92-3325623738</span>    
+                        <RxLinkedinLogo />
+                        <span className="text-[15px] ml-[6px]">LinkedIn</span>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <span className="text-[15px] ml-[6px]">@ mharoon1326@gmail.com</span>    
