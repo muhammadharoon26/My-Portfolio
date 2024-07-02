@@ -13,7 +13,7 @@ const Chatbot: React.FC = () => {
   useEffect(() => {
     const initializeModel = async () => {
       try {
-        const genAI = new GoogleGenerativeAI("AIzaSyClmhbY7Fsw4GlsKt-37itASSZtx6-qcOU");
+        const genAI = new GoogleGenerativeAI("AIzaSyAnbKo-XvXOQIXgRMAaT2LU5ioJZ0PmqTw");
         const genModel = genAI.getGenerativeModel({ model: "gemini-pro" });
         setModel(genModel);
 
