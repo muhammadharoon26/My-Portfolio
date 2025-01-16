@@ -35,21 +35,21 @@
 
 //       <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
 //         <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px] cursor-pointer">
-          
-//           {/* <Image
-//             src="/scriptkiddie.png"
-//             alt="logo"
-//             width={40}
-//             height={50}
-//             className="cursor-pointer hover:animate-slowspin"
-//           /> */}
-//           <div >
-//           <Chatbot/>
-//           </div>
-//           {/* <Chatbot/> */}
-//           <span className="font-bold ml-[60px] hidden md:block text-gray-300 " style={{ marginLeft: '-225px'}}>
-//             Hi!
-//           </span>
+
+// {/* <Image
+//   src="/scriptkiddie.png"
+//   alt="logo"
+//   width={40}
+//   height={50}
+//   className="cursor-pointer hover:animate-slowspin"
+// /> */}
+// <div >
+// <Chatbot/>
+// </div>
+// {/* <Chatbot/> */}
+// <span className="font-bold ml-[60px] hidden md:block text-gray-300 " style={{ marginLeft: '-225px'}}>
+//   Hi!
+// </span>
 
 //           <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-2000">
 //             <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
@@ -64,7 +64,7 @@
 //               </a>
 //             </div>
 //           </div>
-          
+
 //           {/* Hamburger menu */}
 //           <div className="cursor-pointer" onClick={togglePdfDisplay}>
 //             <img
@@ -130,13 +130,21 @@ const Navbar = () => {
       {/* Navbar */}
       <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50">
         <div className="w-full h-full max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
-          {/* Left side - Chatbot */}
-          <div className="flex items-center">
+
+          {/* Chatbot */}
+          {/* <Image
+            src="/scriptkiddie.png"
+            alt="logo"
+            width={40}
+            height={50}
+            className="cursor-pointer hover:animate-slowspin"
+          /> */}
+          <div >
             <Chatbot />
-            <span className="font-bold text-gray-300 ml-4 hidden sm:block">
-              Hi!
-            </span>
           </div>
+          <span className="font-bold ml-[60px] hidden md:block text-gray-300 " style={{ marginLeft: '-225px' }}>
+            Hi!
+          </span>
 
           {/* Middle - Navigation Links (Hidden on mobile) */}
           <div className="hidden md:block flex-1 max-w-[500px] mx-4">
