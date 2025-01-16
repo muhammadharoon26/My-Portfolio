@@ -119,8 +119,8 @@ const SkillText = () => {
         // className="flex flex-col items-center justify-center border border-[#7042f88b] bg-[#2a2a3e] p-8 rounded-lg opacity-90 w-[90%] max-w-[800px] h-auto"
         className='flex flex-col items-center justify-center p-8 border border-[#7042f88b] opacity-[0.9] w-[90%] max-w-[800px] h-auto'
       >
-        {/* <h1 className="text-white font-bold text-[16px] leading-relaxed text-center"> */}
-          <h1>
+        <h1 className="text-white font-bold text-[16px] leading-relaxed text-center">
+          {/* <h1> */}
           Developer with 10 months of experience in cloud, CI/CD, and API
           development. Proficient in Python and database optimization. Proven
           ability to design and implement scalable solutions, enhance
