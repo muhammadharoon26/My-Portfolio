@@ -117,7 +117,7 @@ const SkillText = () => {
         initial="hidden"
         animate="visible"
         // className="flex flex-col items-center justify-center border border-[#7042f88b] bg-[#2a2a3e] p-8 rounded-lg opacity-90 w-[90%] max-w-[800px] h-auto"
-        className='flex flex-col items-center justify-center p-8 border border-[#7042f88b] opacity-[0.9] w-[90%] max-w-[800px] h-auto'
+        className='Welcome-box flex flex-col items-center justify-center p-8 border border-[#7042f88b] opacity-[0.9] w-[90%] max-w-[800px] h-auto'
       >
         <h1 className="text-white font-bold text-[16px] leading-relaxed text-center">
           {/* <h1> */}
