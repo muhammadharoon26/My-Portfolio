@@ -100,7 +100,7 @@ import { slideInFromLeft, slideInFromRight } from "@/utils/motion";
 
 const SkillText = () => {
   return (
-    <div className="w-screen h-screen flex flex-col items-center justify-center bg-[#1a1a2e]">
+    <div className="w-screen h-screen flex flex-col items-center justify-center px-4">
       {/* Title Section */}
       <motion.div
         variants={slideInFromLeft(0.5)}
