@@ -62,44 +62,54 @@ import MailIcon from '@mui/icons-material/Mail';
 
 const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-4">
+    <footer className="w-full h-full bg-transparent text-gray-200 shadow-lg p-4">
       <div className="w-full flex flex-col items-center justify-center m-auto">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <a 
-              href="https://github.com/muhammadharoon26" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex flex-row items-center my-4 cursor-pointer hover:text-gray-400 transition-colors"
-            >
-              <RxGithubLogo className="text-xl" />
-              <span className="text-[15px] ml-2">GitHub</span>
-            </a>
-            <a 
-              href="tel:+923325623738"
-              className="flex flex-row items-center my-4 cursor-pointer hover:text-gray-400 transition-colors"
-            >
-              <span className="text-[15px]">+92-332-5623738</span>
-            </a>
+            <div className="my-4">
+              <a 
+                href="https://github.com/muhammadharoon26" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex flex-row items-center cursor-pointer hover:text-gray-400 transition-colors"
+              >
+                <RxGithubLogo size={20} />
+                <span className="text-[15px] ml-2">GitHub</span>
+              </a>
+            </div>
+            
+            <div className="my-4">
+              <a 
+                href="tel:+923325623738"
+                className="flex flex-row items-center cursor-pointer hover:text-gray-400 transition-colors"
+              >
+                <span className="text-[15px]">+92-332-5623738</span>
+              </a>
+            </div>
           </div>
           
           <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-            <a 
-              href="http://www.linkedin.com/in/muhammadharoon26" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex flex-row items-center my-4 cursor-pointer hover:text-gray-400 transition-colors"
-            >
-              <RxLinkedinLogo className="text-xl" />
-              <span className="text-[15px] ml-2">LinkedIn</span>
-            </a>
-            <a 
-              href="mailto:mharoon1326@gmail.com"
-              className="flex flex-row items-center my-4 cursor-pointer hover:text-gray-400 transition-colors"
-            >
-              <MailIcon className="text-xl" />
-              <span className="text-[15px] ml-2">mharoon1326@gmail.com</span>
-            </a>
+            <div className="my-4">
+              <a 
+                href="https://www.linkedin.com/in/muhammadharoon26" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex flex-row items-center cursor-pointer hover:text-gray-400 transition-colors"
+              >
+                <RxLinkedinLogo size={20} />
+                <span className="text-[15px] ml-2">LinkedIn</span>
+              </a>
+            </div>
+            
+            <div className="my-4">
+              <a 
+                href="mailto:mharoon1326@gmail.com"
+                className="flex flex-row items-center cursor-pointer hover:text-gray-400 transition-colors"
+              >
+                <MailIcon fontSize="small" />
+                <span className="text-[15px] ml-2">mharoon1326@gmail.com</span>
+              </a>
+            </div>
           </div>
         </div>
 
@@ -107,7 +117,7 @@ const Footer = () => {
           &copy; Muhammad Haroon Inc. All rights reserved
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
