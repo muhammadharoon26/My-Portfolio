@@ -3,6 +3,7 @@ import {
   RxGithubLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
+import MailIcon from '@mui/icons-material/Mail';
 
 const Footer = () => {
   return (
@@ -12,19 +13,21 @@ const Footer = () => {
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Github</span>    
+                        <a href ="https://github.com/muhammadharoon26" className="text-[15px] ml-[6px]">GitHub</a>    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <span className="text-[15px] ml-[6px]">+92-3325623738</span>    
+                        <span className="text-[15px] ml-[6px]">+92-332-5623738</span>    
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxLinkedinLogo />
-                        <span className="text-[15px] ml-[6px]">LinkedIn</span>    
+                        <a href= "http://www.linkedin.com/in/muhammadharoon26" className="text-[15px] ml-[6px]">LinkedIn</a>    
                     </p>
+                    {/* <p className="flex flex-row items-center my-[15px] cursor-pointer"> */}
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                        <span className="text-[15px] ml-[6px]">@ mharoon1326@gmail.com</span>    
+                        <MailIcon />
+                        <span className="text-[15px] ml-[6px]">mharoon1326@gmail.com</span>    
                     </p>
                 </div>
             </div>
