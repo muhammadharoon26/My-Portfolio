@@ -73,10 +73,10 @@ const Chatbot: React.FC = () => {
     </div>
     `;
   };
-  
+
 
   const aiDiv = (data: string) => {
-    return  `
+    return `
     <!-- AI Chat -->
     <div class="flex gap-2 justify-end">
       <pre class="bg-gemRegular/40 text-gemDeep p-1 rounded-md shadow-md whitespace-pre-wrap">
@@ -136,7 +136,7 @@ const Chatbot: React.FC = () => {
     chatForm?.classList.toggle('hidden');
     setIsChatOpen((prevIsChatOpen) => !prevIsChatOpen);
   };
-  
+
 
   return (
     <div className='fixed position: absolute'>
@@ -153,23 +153,23 @@ const Chatbot: React.FC = () => {
         </div>
       </header>
       {/* Chat Box */}
-      <div style={{ background:'rgb(0 159 255 / 12%)',marginTop:'-20vh', height: isChatOpen ? '46vh' : '0vh' ,width: isChatOpen ? 'fit-content' : '0vh' }}>
+      <div style={{ background: 'rgb(0 159 255 / 12%)', marginTop: '-20vh', height: isChatOpen ? '46vh' : '0vh', width: isChatOpen ? 'fit-content' : '0vh' }}>
         <div className="  flex-1 overflow-y-auto hidden" id="chat-container">
           {/* Chat area */}
           <div className="p-2 flex flex-col gap-4" id="chat-content"></div>
         </div >
         {/* prompt */}
         <form onSubmit={handleSubmit} className="p-2 h-fit hidden" id="chat-form">
-        <textarea
-          name="prompt"
-          id="prompt"
-          style={{ margin: '0rem' }}
-          cols={30}
-          rows={4}
-          className="w-full p-2 rounded-auto resize-none focus:outline-none"
-          placeholder="   Enter message here..."
-          
-        ></textarea>
+          <textarea
+            name="prompt"
+            id="prompt"
+            style={{ margin: '0rem' }}
+            cols={30}
+            rows={4}
+            className="w-full p-2 rounded-auto resize-none focus:outline-none"
+            placeholder="   Enter message here..."
+
+          ></textarea>
 
           <button
             type="submit"
