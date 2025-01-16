@@ -74,7 +74,7 @@ const SkillText = () => {
       </motion.div> */}
       <motion.div
         variants={slideInFromLeft(0.5)}
-        className='Welcome-box py-auto px-auto border border-[#7042f88b] opacity-[0.9]'>
+        className='Welcome-box py-auto px-auto border border-[#7042f88b] opacity-[0.9] w-auto h-auto'>
         <h1 className='Welcome-text text-bold text-[13px]'>
           {/* Muhammad Haroon Portfolio */}
           Developer with 10 months of experience in cloud, CI/CD and API development. Proficient in Python and database optimisation. Proven ability to design and implement scalable solutions, enhance application performance and drive successful projects in Agile environments. Committed to continuous learning and adapting evolving technologies.
