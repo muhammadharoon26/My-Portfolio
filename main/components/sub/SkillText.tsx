@@ -63,7 +63,7 @@
 
 //       <motion.div
 //         variants={slideInFromLeft(0.5)}
-        // className='Welcome-box py-6 px-8 border border-[#7042f88b] opacity-[0.9] w-auto max-w-[800px] h-auto text-center'
+// className='Welcome-box py-6 px-8 border border-[#7042f88b] opacity-[0.9] w-auto max-w-[800px] h-auto text-center'
 //       >
 //         <h1 className='Welcome-text text-bold text-[16px] text-white'>
 //           Developer with 10 months of experience in cloud, CI/CD and API development. Proficient in Python and database optimisation. Proven ability to design and implement scalable solutions, enhance application performance and drive successful projects in Agile environments. Committed to continuous learning and adapting evolving technologies.
@@ -117,10 +117,10 @@ const SkillText = () => {
         initial="hidden"
         animate="visible"
         // className="flex flex-col items-center justify-center border border-[#7042f88b] bg-[#2a2a3e] p-8 rounded-lg opacity-90 w-[90%] max-w-[800px] h-auto"
-        className='Welcome-box flex flex-col items-center justify-center p-8 border border-[#7042f88b] opacity-[0.9] w-[90%] max-w-[800px] h-auto text-center'
+        // className='Welcome-box flex flex-col items-center justify-center p-8 border border-[#7042f88b] opacity-[0.9] w-[90%] max-w-[800px] h-auto'
       >
         <h1 className="text-white font-bold text-[16px] leading-relaxed text-center">
-        {/* <h1> */}
+          {/* <h1> */}
           Developer with 10 months of experience in cloud, CI/CD, and API
           development. Proficient in Python and database optimization. Proven
           ability to design and implement scalable solutions, enhance
