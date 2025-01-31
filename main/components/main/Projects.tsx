@@ -12,6 +12,11 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
+          src="/task_manager_api.webp"
+          title="Task Manager API"
+          description="A robust REST API for managing tasks with real-time updates using Socket.IO, built with Node.js, Express, and MongoDB."
+        />
+        <ProjectCard
           src="/fizzFuzz.png"
           title="Fizz Fuzz: A fuzzing tool for websites"
           description="Python script finds all the sub domains of a website."
