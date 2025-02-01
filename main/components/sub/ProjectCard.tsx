@@ -54,7 +54,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   githubLink,
 }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md p-4">
+    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
       <img src={src} alt={title} className="w-full h-64 object-cover" />
       <a
         href={githubLink}
@@ -62,10 +62,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         rel="noopener noreferrer"
         className="text-blue-500 hover:text-blue-700 transition duration-300 ease-in-out"
       >
-      <h2 className="text-lg font-bold mt-4">{title}</h2>
+        <h2 className="text-lg font-bold mt-4">{title}</h2>
       </a>
       <p className="text-gray-600">{description}</p>
-      
+
     </div>
   );
 };

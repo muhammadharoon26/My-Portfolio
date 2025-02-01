@@ -13,7 +13,7 @@
 //       {/* <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10"> */}
 //       <div className="h-full w-full grid grid-cols-1 md:grid-cols-3 gap-10 px-10">
 //         <ProjectCard
-        
+
 //           src="/task_manager_api.webp"
 //           title="Task Manager API"
 //           description="A robust REST API for managing tasks with real-time updates using Socket.IO, built with Node.js, Express, and MongoDB."
