@@ -55,7 +55,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 }) => {
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
-      <img src={src} alt={title} className="w-full h-64 object-cover" />
+      <img src={src} alt={title} width={1000} height={1000} className="w-full h-64 object-cover" />
       <a
         href={githubLink}
         target="_blank"
