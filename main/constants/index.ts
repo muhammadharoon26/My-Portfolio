@@ -14,8 +14,8 @@ export const Programming_languages = [
   {
     language_name: "Java Script",
     Image: "/js.png",
-    width: 65,
-    height: 65,
+    width: 80,
+    height: 80,
   },
   {
     language_name: "Python",
@@ -26,8 +26,8 @@ export const Programming_languages = [
   {
     language_name: "Golang",
     Image: "/golang.png",
-    width: 70,
-    height: 100,
+    width: 80,
+    height: 80,
   },
   {
     language_name: "C++",
@@ -65,20 +65,20 @@ export const Operating_Systems = [
   {
     os_name: "Windows",
     Image: "/windows.png",
-    width: 200,
-    height: 200,
+    width: 80,
+    height: 80,
   },
   {
     os_name: "Kali Linux",
     Image: "/kalilinux.png",
-    width: 200,
-    height: 200,
+    width: 80,
+    height: 80,
   },
   {
     os_name: "Ubuntu",
     Image: "/ubuntu.png",
-    width: 120,
-    height: 100,
+    width: 80,
+    height: 80,
   },
 ];
 
@@ -125,27 +125,27 @@ export const Full_stack = [
   {
     skill_name: "React Native",
     Image: "/ReactNative .png",
-    width: 70,
-    height: 70,
+    width: 80,
+    height: 80,
   },
   {
     skill_name: "Tauri",
     Image: "/tauri.svg",
-    width: 70,
-    height: 70,
+    width: 80,
+    height: 80,
   },
   {
     skill_name: "Docker",
     Image: "/docker.webp",
-    width: 70,
-    height: 70,
+    width: 80,
+    height: 80,
   },
 
   {
     skill_name: "Figma",
     Image: "/figma.png",
-    width: 50,
-    height: 50,
+    width: 80,
+    height: 80,
   },
 ];
 
@@ -153,7 +153,7 @@ export const Other_skill = [
   {
     skill_name: "Go",
     Image: "/go.png",
-    width: 60,
-    height: 60,
+    width: 80,
+    height: 80,
   },
 ];
