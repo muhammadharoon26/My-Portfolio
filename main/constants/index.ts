@@ -26,8 +26,8 @@ export const Programming_languages = [
   {
     language_name: "Golang",
     Image: "/golang.png",
-    width: 80,
-    height: 80,
+    width: 70,
+    height: 100,
   },
   {
     language_name: "C++",
@@ -66,7 +66,7 @@ export const Operating_Systems = [
     os_name: "Windows",
     Image: "/windows.png",
     width: 200,
-    height: 2000,
+    height: 200,
   },
   {
     os_name: "Kali Linux",
