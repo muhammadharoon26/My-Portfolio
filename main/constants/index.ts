@@ -24,6 +24,12 @@ export const Programming_languages = [
     height: 80,
   },
   {
+    language_name: "Golang",
+    Image: "/golang.png",
+    width: 80,
+    height: 80,
+  },
+  {
     language_name: "C++",
     Image: "/cpp.png",
     width: 80,
