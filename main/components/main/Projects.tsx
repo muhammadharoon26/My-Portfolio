@@ -59,6 +59,12 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full grid grid-cols-1 md:grid-cols-3 gap-10 px-10">
         <ProjectCard
+          src="/livechat-support.webp"
+          title="Live Chat Support System"
+          description="A real-time chat support system built with Go, featuring WebSocket communication, JWT authentication, and message persistence using SQLite and Redis."
+          githubLink="https://github.com/muhammadharoon26/livechat-support"
+        />
+        <ProjectCard
           src="/task_manager_api.webp"
           title="Task Manager API"
           description="A robust REST API for managing tasks with real-time updates using Socket.IO, built with Node.js, Express, and MongoDB."
