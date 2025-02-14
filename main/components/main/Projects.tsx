@@ -71,22 +71,28 @@ const Projects = () => {
           githubLink="https://github.com/muhammadharoon26/task-manager-api"
         />
         <ProjectCard
+          src="/tier3-devops-cicd-iac-project.png"
+          title="Tier3 DevOps CICD IAC Project"
+          description="A DevOps project showcasing version control, automated testing, CI/CD, containerization, monitoring, and infrastructure as code."
+          githubLink="https://github.com/muhammadharoon26/tier3-devops-cicd-iac-project"
+        />
+        <ProjectCard
           src="/fizzFuzz.png"
           title="Fizz Fuzz: A fuzzing tool for websites"
           description="Python script finds all the sub domains of a website."
-          githubLink="https://github.com/muhammadharoon26/"
+          githubLink="https://github.com/muhammadharoon26/fizzFuzz"
         />
         <ProjectCard
           src="/filecomp.png"
           title="File Compression Tool"
           description="Compress any text-based file."
-          githubLink="https://github.com/muhammadharoon26/"
+          githubLink="https://github.com/muhammadharoon26/File-Compression-tool"
         />
         <ProjectCard
           src="/traffic.png"
           title="Traffic Light Emergency Vehicle Prioritization System"
           description="Sets priority for emergency vehicles on traffic signal."
-          githubLink="https://github.com/muhammadharoon26/"
+          githubLink="https://github.com/muhammadharoon26/Traffic-Light-Emergency-Vehicle-Priority-System"
         />
       </div>
     </div>
