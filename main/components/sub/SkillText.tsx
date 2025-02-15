@@ -27,10 +27,9 @@ const SkillText = () => {
       >
         <h1 className="text-white font-bold text-[16px] leading-relaxed text-center">
           {/* <h1> */}
-          Developer with 1 year of experience in Azure DevOps, Kubernetes, Jenkins, Python, Django, Node.js, Selenium, and
-          API development. Proficient in Python and database optimization, with a proven ability to build scalable solutions,
-          enhance performance, and drive projects in Agile environments. Committed to continuous learning and emerging
-          technologies
+          Developer with 1 year of experience in Azure DevOps, Kubernetes, Jenkins, Python, Django, Node.js, Selenium, and API development.
+          Proficient in Python and database optimization, with a proven ability to build scalable solutions, enhance performance, and drive projects in Agile environments.
+          Committed to continuous learning and emerging technologies.
         </h1>
       </motion.div>
 
