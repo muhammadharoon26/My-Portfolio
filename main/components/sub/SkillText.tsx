@@ -121,12 +121,10 @@ const SkillText = () => {
       >
         <h1 className="text-white font-bold text-[16px] leading-relaxed text-center">
           {/* <h1> */}
-          Developer with 10 months of experience in cloud, CI/CD, and API
-          development. Proficient in Python and database optimization. Proven
-          ability to design and implement scalable solutions, enhance
-          application performance, and drive successful projects in Agile
-          environments. Committed to continuous learning and adapting to
-          evolving technologies.
+          Developer with 1 year of experience in Azure DevOps, Kubernetes, Jenkins, Python, Django, Node.js, Selenium, and
+          API development. Proficient in Python and database optimization, with a proven ability to build scalable solutions,
+          enhance performance, and drive projects in Agile environments. Committed to continuous learning and emerging
+          technologies
         </h1>
       </motion.div>
 
@@ -137,7 +135,7 @@ const SkillText = () => {
         animate="visible"
         className="text-[20px] text-gray-200 mt-10 text-center"
       >
-        Experience with vast Technologies
+        Experience With Vast Technologies !
       </motion.div>
     </div>
   );
